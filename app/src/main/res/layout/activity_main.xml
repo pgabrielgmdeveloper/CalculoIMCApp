@@ -34,7 +34,8 @@
             android:id="@+id/edit_peso"
             android:layout_width="match_parent"
             android:layout_height="66dp"
-            android:hint="Digite seu peso ex: 80.5" />
+            android:hint="Digite seu peso ex: 80.5"
+            android:inputType="number|numberDecimal" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -53,7 +54,8 @@
             android:id="@+id/edit_altura"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Digite sua altura ex: 1.84" />
+            android:hint="Digite sua altura ex: 1.84"
+            android:inputType="number|numberDecimal" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
